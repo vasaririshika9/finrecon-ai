@@ -1,0 +1,55 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables / Secrets
+.env
+.env.*
+
+# Python Models
+*.pkl
+*.joblib
+
+# =========================
+# Node.js / React
+# =========================
+node_modules/
+
+# Build Files
+dist/
+build/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Backend Generated Files
+# =========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Optional: Ignore generated reconciliation results
+# backend/results/*.json

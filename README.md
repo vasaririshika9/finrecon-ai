@@ -286,6 +286,8 @@ finrecon_ai/
 │
 └── .gitignore
 ![ProjectStructure Screenshot](screenshots/projectstructure.png)
+![ProjectStructure Screenshot FRONTEND](screenshots/frontendstructure.png)
+![ProjectStructure Screenshot BACKEND](screenshots/backendstructure.png)
 #  How It Works
 Generate Synthetic Data
         ↓
@@ -308,6 +310,7 @@ Human Review Queue
 AI Insights Dashboard
 
 ![WorkFlow Screenshot](screenshots/workflow.png)
+
 
 # Matching Logic
 Exact Match
