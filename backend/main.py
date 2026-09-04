@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """main.py – FinRecon AI FastAPI Application
 ==========================================
 Autonomous AI Finance Controller backend.
@@ -40,53 +40,7 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# Enable CORS for frontend applications (Vite / React / Next)
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=[
-#         "http://localhost:5173",
-#         "http://127.0.0.1:5173",
-#         "http://localhost:3000",
-#         "http://127.0.0.1:3000",
-#         "http://localhost:8888",
-#         "http://127.0.0.1:8888",
-#         "*",
-#     ],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=[
-#         "http://localhost:5173",
-#         "http://127.0.0.1:5173",
-#         "https://finrecon-ai-iota.vercel.app",
-        
-#     ],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-#from fastapi.middleware.cors import CORSMiddleware
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=[
-#         "http://localhost:5173",
-#         "http://127.0.0.1:5173",
-#         "https://finrecon-ai-iota.vercel.app",
-#     ],
-#     allow_credentials=False,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
-
-
-
-from fastapi.middleware.cors import CORSMiddleware
-
+# Enable CORS for frontend applications
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -106,6 +60,20 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 RESULTS_JSON = os.path.join(RESULTS_DIR, "reconciliation_results.json")
 EXCEPTIONS_JSON = os.path.join(RESULTS_DIR, "exceptions.json")
+
+
+@app.on_event("startup")
+def startup_event():
+    """Ensure data files and initial reconciliation results exist on server boot."""
+    try:
+        from data_generator import generate_data
+        from reconciliation import run_reconciliation
+        if not os.path.exists(RESULTS_JSON):
+            generate_data()
+            run_reconciliation()
+            print("[Startup] Initial synthetic data & reconciliation results ready.")
+    except Exception as e:
+        print(f"[Startup Warning] Could not pre-generate data: {e}")
 
 
 @app.get("/health", tags=["System"])
