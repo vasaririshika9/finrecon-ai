@@ -228,63 +228,6 @@ AI
     Rule-based fallback insights
 
 📁 Project Structure
-
-finrecon_ai/
-│
-├── backend/
-│   ├── main.py
-│   ├── data_generator.py
-│   ├── reconciliation.py
-│   ├── models.py
-│   ├── ai_agent.py
-│   ├── requirements.txt
-│   ├── .env.example
-│   ├── .gitignore
-│   │
-│   ├── data/
-│   │   ├── internal_ledger.csv
-│   │   ├── bank_statement.csv
-│   │   └── payment_gateway.csv
-│   │
-│   ├── uploads/
-│   │
-│   └── results/
-│       ├── reconciliation_results.json
-│       └── exceptions.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Sidebar.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── MetricCard.jsx
-│   │   │   ├── ReconciliationChart.jsx
-│   │   │   ├── ExceptionTable.jsx
-│   │   │   ├── TransactionTable.jsx
-│   │   │   └── Assistant.jsx
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Reconciliation.jsx
-│   │   │   ├── Exceptions.jsx
-│   │   │   └── AIInsights.jsx
-│   │   │
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   │
-│   ├── package.json
-│   ├── vite.config.js
-│   └── index.html
-│
-├── screenshots/
-│
-├── README.md
-│
-└── .gitignore
 ![ProjectStructure Screenshot](screenshots/projectstructure.png)
 ![ProjectStructure Screenshot FRONTEND](screenshots/frontendstructure.png)
 ![ProjectStructure Screenshot BACKEND](screenshots/backendstructure.png)
