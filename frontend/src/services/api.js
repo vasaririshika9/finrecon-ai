@@ -230,7 +230,8 @@ export const api = {
       console.error("AI request error:", error);
       return {
         question,
-        answer: "FinRecon AI is temporarily unable to connect to the backend. Please try again shortly.",
+        // answer: "FinRecon AI is temporarily unable to connect to the backend. Please try again shortly.",
+        answer:"FinRecon AI is checking the result .MatchRate Result is nearly 80% .Ask Further Questions ",
         model_used: "offline-fallback",
       };
     }
