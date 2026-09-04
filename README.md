@@ -210,20 +210,20 @@ Users can ask questions such as:
 # Architecture
 ![Architecture Screenshot](screenshots/Architecture.png)
 # Technology Stack
-Frontend
+### Frontend: 
     React
     Vite
     Axios
     Recharts
     Lucide React
-Backend
+### Backend:
     Python
     FastAPI
     Uvicorn
-    Pandas
+    PandasS
     RapidFuzz
     Pydantic
-AI
+### AI
     OpenAI API 
     Rule-based fallback insights
 
