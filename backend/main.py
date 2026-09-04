@@ -11,7 +11,6 @@ Endpoints:
     GET  /exceptions      - Return only exceptions requiring review
     POST /ask             - Natural-language financial question answering
 """
-
 import os
 import json
 from typing import List
