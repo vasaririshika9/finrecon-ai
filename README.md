@@ -227,7 +227,7 @@ AI
     OpenAI API 
     Rule-based fallback insights
 
-📁 Project Structure
+# 📁 Project Structure
 ![ProjectStructure Screenshot](screenshots/projectstructure.png)
 ![ProjectStructure Screenshot FRONTEND](screenshots/frontendstructure.png)
 ![ProjectStructure Screenshot BACKEND](screenshots/backendstructure.png)
