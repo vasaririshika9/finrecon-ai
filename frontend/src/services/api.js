@@ -4,7 +4,10 @@ import axios from "axios";
 // Production Backend URL
 // const API_BASE_URL = "https://finrecon-ai-backend.onrender.com";
 const API_BASE_URL = import.meta.env.VITE_API_URL || "https://finrecon-ai-backend.onrender.com";
+// const API_URL =
+//   import.meta.env.VITE_API_URL || "https://finrecon-ai-backend.onrender.com";
 
+console.log("API URL:", API_URL);
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   headers: {
