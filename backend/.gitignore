@@ -32,10 +32,10 @@ ENV/
 *.swp
 *.swo
 
-# Data & Results (generated files)
-data/*.csv
-results/*.json
-uploads/*
+# # Data & Results (generated files)
+# data/*.csv
+# results/*.json
+# uploads/*
 
 # OS
 .DS_Store

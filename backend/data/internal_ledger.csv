@@ -1,0 +1,61 @@
+transaction_id,date,vendor,amount,category,status
+TXN001,2026-08-24,Office Supplies Co,1590.12,Office,Paid
+TXN002,2026-08-05,Uber,600.25,Travel,Paid
+TXN003,2026-08-24,Tata Communications,3963.37,Telecom,Paid
+TXN004,2026-08-14,AWS,8322.78,Cloud,Paid
+TXN005,2026-08-07,Amazon India,4294.7,E-Commerce,Paid
+TXN006,2026-08-01,Swiggy,801.29,Food,Paid
+TXN007,2026-08-21,AWS,8641.69,Cloud,Paid
+TXN008,2026-08-08,Tata Communications,4560.67,Telecom,Paid
+TXN009,2026-08-26,Netflix,666.38,Entertainment,Paid
+TXN010,2026-08-06,Amazon India,5388.21,E-Commerce,Paid
+TXN011,2026-08-09,Tata Communications,4395.53,Telecom,Paid
+TXN012,2026-08-25,Google Cloud,7316.75,Cloud,Paid
+TXN013,2026-08-13,Zomato,836.63,Food,Paid
+TXN014,2026-08-12,Microsoft Azure,11492.33,Cloud,Paid
+TXN015,2026-08-02,Razorpay,2323.39,Finance,Paid
+TXN016,2026-08-04,Tata Communications,4445.22,Telecom,Paid
+TXN017,2026-08-10,Adobe Systems,3057.74,Software,Paid
+TXN018,2026-08-28,Office Supplies Co,1864.0,Office,Paid
+TXN019,2026-08-23,Zomato,972.05,Food,Paid
+TXN020,2026-08-08,Microsoft Azure,10364.97,Cloud,Paid
+TXN021,2026-08-28,Uber,744.62,Travel,Paid
+TXN022,2026-08-13,Swiggy,887.96,Food,Paid
+TXN023,2026-08-27,Uber,640.92,Travel,Paid
+TXN024,2026-08-12,Zomato,853.86,Food,Paid
+TXN025,2026-08-23,Swiggy,840.84,Food,Paid
+TXN026,2026-08-20,Office Supplies Co,1879.94,Office,Paid
+TXN027,2026-08-24,Office Supplies Co,1622.41,Office,Paid
+TXN028,2026-08-13,Swiggy,719.22,Food,Paid
+TXN029,2026-08-21,Uber,745.46,Travel,Paid
+TXN030,2026-08-22,Tata Communications,4576.88,Telecom,Paid
+TXN031,2026-08-25,Zomato,1047.71,Food,Paid
+TXN032,2026-08-02,Amazon India,4593.57,E-Commerce,Paid
+TXN033,2026-08-03,Zomato,921.83,Food,Paid
+TXN034,2026-08-19,Swiggy,899.15,Food,Paid
+TXN035,2026-08-21,Tata Communications,4249.82,Telecom,Paid
+TXN036,2026-08-30,Netflix,628.68,Entertainment,Paid
+TXN037,2026-08-09,Office Supplies Co,1777.78,Office,Paid
+TXN038,2026-08-18,Google Cloud,7391.91,Cloud,Paid
+TXN039,2026-08-19,AWS,8823.81,Cloud,Paid
+TXN040,2026-08-13,Adobe Systems,3917.71,Software,Paid
+TXN041,2026-08-05,Amazon India,4792.99,E-Commerce,Paid
+TXN042,2026-08-03,Microsoft Azure,12034.29,Cloud,Paid
+TXN043,2026-08-28,Google Cloud,8613.88,Cloud,Paid
+TXN044,2026-08-21,Swiggy,706.32,Food,Paid
+TXN045,2026-08-22,Uber,583.7,Travel,Paid
+TXN046,2026-08-03,Zomato,927.82,Food,Paid
+TXN047,2026-08-20,Adobe Systems,3379.01,Software,Paid
+TXN048,2026-08-17,Netflix,745.59,Entertainment,Paid
+TXN049,2026-08-22,Microsoft Azure,11105.09,Cloud,Paid
+TXN050,2026-08-25,Google Cloud,8529.73,Cloud,Paid
+TXN051,2026-08-10,AWS,9901.74,Cloud,Paid
+TXN052,2026-08-01,Tata Communications,4411.93,Telecom,Paid
+TXN053,2026-08-09,Razorpay,2840.36,Finance,Paid
+TXN054,2026-08-17,Office Supplies Co,1941.46,Office,Paid
+TXN055,2026-08-10,Adobe Systems,3889.04,Software,Paid
+TXN056,2026-08-05,Netflix,670.22,Entertainment,Paid
+TXN057,2026-08-06,Zomato,914.07,Food,Paid
+TXN058,2026-08-25,Swiggy,809.45,Food,Paid
+TXN059,2026-08-01,Google Cloud,9013.84,Cloud,Pending
+TXN060,2026-08-16,Tata Communications,4633.58,Telecom,Pending
