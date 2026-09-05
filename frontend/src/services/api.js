@@ -7,7 +7,7 @@ const API_BASE_URL = import.meta.env.VITE_API_URL || "https://finrecon-ai-backen
 // const API_URL =
 //   import.meta.env.VITE_API_URL || "https://finrecon-ai-backend.onrender.com";
 
-console.log("API URL:", API_URL);
+console.log("API URL:", API_BASE_URL);
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   headers: {
