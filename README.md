@@ -1,6 +1,6 @@
 # FinRecon AI – Autonomous AI Finance Controller
 
-##  Overview
+##  Overview of FinRecon AI 
 
 FinRecon AI is an AI-powered financial reconciliation platform designed to automate the comparison and validation of financial transactions across multiple data sources.
 
