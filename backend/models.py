@@ -1,4 +1,5 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+# FinRecon AI
 """models.py – Pydantic Data Models for FinRecon AI
 ===================================================
 Defines schemas for reconciliation results, exceptions, metrics, and AI queries.

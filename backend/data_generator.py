@@ -1,4 +1,5 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+# FinRecon AI
 """data_generator.py – Synthetic Financial Data Generator
 =======================================================
 Generates realistic financial records across three sources:

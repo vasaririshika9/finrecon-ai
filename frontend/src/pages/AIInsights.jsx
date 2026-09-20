@@ -1,4 +1,5 @@
-﻿import React, { useEffect, useState } from 'react';
+// FinRecon AI
+import React, { useEffect, useState } from 'react';
 import AIAssistant from '../components/AIAssistant';
 import { Lightbulb, TrendingDown, Target, ShieldCheck, RefreshCw } from 'lucide-react';
 import { api } from '../services/api';

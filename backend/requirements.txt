@@ -1,3 +1,4 @@
+# FinRecon AI
 fastapi
 uvicorn
 pandas

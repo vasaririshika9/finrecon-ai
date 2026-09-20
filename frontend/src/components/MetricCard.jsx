@@ -1,4 +1,4 @@
-
+// FinRecon AI
 import React from 'react';
 
 export default function MetricCard({ title, value, icon: Icon, color = 'text-brand-blue', bg = 'bg-brand-blue/10' }) {

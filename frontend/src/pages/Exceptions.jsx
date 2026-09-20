@@ -1,4 +1,5 @@
-﻿import React, { useEffect, useState } from 'react';
+// FinRecon AI
+import React, { useEffect, useState } from 'react';
 import ExceptionTable from '../components/ExceptionTable';
 import MetricCard from '../components/MetricCard';
 import { api } from '../services/api';

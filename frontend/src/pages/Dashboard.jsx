@@ -1,4 +1,5 @@
-﻿import React, { useState } from 'react';
+// FinRecon AI
+import React, { useState } from 'react';
 import { Database, Play, RefreshCw, FileText, CheckSquare, AlertTriangle, HelpCircle } from 'lucide-react';
 import MetricCard from '../components/MetricCard';
 import ReconciliationChart from '../components/ReconciliationChart';

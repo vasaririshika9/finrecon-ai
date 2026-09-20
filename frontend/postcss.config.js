@@ -1,3 +1,4 @@
+// FinRecon AI
 export default {
   plugins: {
     tailwindcss: {},

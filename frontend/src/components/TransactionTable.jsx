@@ -1,4 +1,5 @@
-﻿import React from 'react';
+// FinRecon AI
+import React from 'react';
 import { AlertCircle, CheckCircle } from 'lucide-react';
 
 export default function TransactionTable({ data = [] }) {

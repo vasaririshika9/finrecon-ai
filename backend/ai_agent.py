@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# FinRecon AI
 """ai_agent.py – Optional AI-Powered Analysis Layer
 =================================================
 Uses OpenAI GPT-4o-mini when OPENAI_API_KEY is configured.

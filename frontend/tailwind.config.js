@@ -1,3 +1,4 @@
+// FinRecon AI
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [

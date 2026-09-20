@@ -1,3 +1,4 @@
+// FinRecon AI
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { LayoutDashboard, FileSpreadsheet, AlertTriangle, Cpu } from 'lucide-react';

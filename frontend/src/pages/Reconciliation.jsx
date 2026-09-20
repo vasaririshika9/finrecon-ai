@@ -1,4 +1,5 @@
-﻿import React, { useEffect, useState } from 'react';
+// FinRecon AI
+import React, { useEffect, useState } from 'react';
 import TransactionTable from '../components/TransactionTable';
 import { api } from '../services/api';
 import { Loader2, Search, RefreshCw, CheckCircle2, AlertCircle } from 'lucide-react';

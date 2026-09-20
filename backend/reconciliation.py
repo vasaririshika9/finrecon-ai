@@ -1,4 +1,5 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+# FinRecon AI
 """reconciliation.py – Core Reconciliation Engine
 ================================================
 Compares records across:

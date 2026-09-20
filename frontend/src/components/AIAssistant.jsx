@@ -1,4 +1,5 @@
-﻿import React, { useState } from 'react';
+// FinRecon AI
+import React, { useState } from 'react';
 import { Send, Bot, User, Loader2 } from 'lucide-react';
 import { api } from '../services/api';
 

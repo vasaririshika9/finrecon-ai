@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# FinRecon AI
 """main.py – FinRecon AI FastAPI Application
 ==========================================
 Autonomous AI Finance Controller backend.

@@ -1,3 +1,4 @@
+// FinRecon AI
 import React, { useEffect, useState } from 'react';
 import { Activity } from 'lucide-react';
 import { useLocation } from 'react-router-dom';

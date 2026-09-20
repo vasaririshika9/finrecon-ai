@@ -1,4 +1,5 @@
-﻿import React from 'react';
+// FinRecon AI
+import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 
 export default function ReconciliationChart({ data }) {

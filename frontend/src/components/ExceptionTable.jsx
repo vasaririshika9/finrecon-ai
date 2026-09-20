@@ -1,4 +1,5 @@
-﻿import React from 'react';
+// FinRecon AI
+import React from 'react';
 import { AlertOctagon, CheckCircle } from 'lucide-react';
 
 export default function ExceptionTable({ data = [] }) {
